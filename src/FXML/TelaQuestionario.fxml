@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="729.0" style="-fx-background-color: rgb(210,139,122);" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="QuestionarioController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#683373" height="93.0" layoutX="1.0" layoutY="1.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="723.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#9d78a4" height="550.0" layoutX="5.0" layoutY="-12.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="101.0" />
+      <Button layoutX="546.0" layoutY="492.0" mnemonicParsing="false" style="-fx-background-color: rgb(104,51,115); -fx-border-color: rgb(255,255,255);" text="Cadastrar questionário" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font></Button>
+      <Label layoutX="126.0" layoutY="24.0" text="Cadastro de questionário" textFill="#fff8f8">
+         <font>
+            <Font name="Century Gothic" size="37.0" />
+         </font>
+      </Label>
+      <ComboBox layoutX="223.0" layoutY="174.0" prefHeight="25.0" prefWidth="282.0" />
+      <Label layoutX="223.0" layoutY="155.0" text="Categoria" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font></Label>
+      <TextField layoutX="224.0" layoutY="123.0" prefHeight="25.0" prefWidth="282.0" />
+      <TextField layoutX="224.0" layoutY="289.0" prefHeight="184.0" prefWidth="282.0" />
+      <Label layoutX="223.0" layoutY="103.0" text="Nome" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font></Label>
+      <Label layoutX="223.0" layoutY="267.0" text="Questões selecionadas" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font></Label>
+      <Label layoutX="224.0" layoutY="210.0" text="Questões" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font></Label>
+      <ComboBox layoutX="223.0" layoutY="231.0" prefHeight="25.0" prefWidth="282.0" />
+      <Button fx:id="btnVoltar" layoutX="476.0" layoutY="492.0" mnemonicParsing="false" onAction="#btnVoltarClick" style="-fx-background-color: rgb(104,51,115); -fx-border-color: rgb(255,255,255);" text="Voltar" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
