@@ -20,7 +20,6 @@ public class LoginMenu extends Application
 		//AnchorPane root;
 		try 
 		{
-			System.out.println("OI");
 			Parent root = FXMLLoader.load(getClass().getResource("FXML/TelaLogin.fxml"));
 	        stage.setTitle("Menu");
 	        
